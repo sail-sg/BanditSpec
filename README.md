@@ -5,7 +5,7 @@ This repository implements **BanditSpec**, a speculative decoding framework that
 
 ## 🧠 Key Components
 
-- `eagle_samd.py`: Defines the Eagle (Li Y. et al. 2024 ) draft model based on LLaMA.
+- `eagle_llama.py`: Defines the Eagle (Li Y. et al. 2024 ) draft model based on LLaMA.
 - `eagle_qwen.py`: Defines the Eagle (Li Y. et al. 2024 ) draft model based on Qwen2.
 - `llama.py`, `qwen.py`: Customized versions of LLaMA and Qwen2 architectures.
 - `generate_utils.py`: Implements core decoding strategies including BanditSpec.
@@ -29,7 +29,7 @@ pip install torch transformers fairscale flash-attn tqdm
 ```
 project/
 ├── inference_length.py
-├── eagle_samd.py
+├── eagle_llama.py
 ├── eagle_qwen.py
 ├── llama.py
 ├── qwen.py

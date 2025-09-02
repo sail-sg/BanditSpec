@@ -1,4 +1,4 @@
-from eagle_samd import Eagle
+from eagle_llama import Eagle
 from llama import LlamaForCausalLM
 from qwen import Qwen2ForCausalLM 
 from transformers import AutoTokenizer
