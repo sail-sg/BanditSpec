@@ -1,4 +1,4 @@
-````markdown
+
 # BanditSpec: Bandit-Based Speculative Decoding for Efficient Autoregressive Generation
 
 This repository implements **BanditSpec**, a speculative decoding framework that adaptively balances exploration and exploitation using bandit algorithms to accelerate autoregressive generation in large language models (LLMs). The framework is compatible with both LLaMA and Qwen2 architectures.
@@ -20,8 +20,6 @@ This repository implements **BanditSpec**, a speculative decoding framework that
 pip install torch transformers fairscale flash-attn tqdm
 ```
 
-
-````
 
 > ⚠️ Make sure `flash-attn` is compiled for your CUDA and PyTorch version.
 
@@ -72,5 +70,3 @@ bsz	spec_quota	gamma	throughput
 
 ## Reference
 Li Y, Wei F, Zhang C, et al. Eagle: Speculative sampling requires rethinking feature uncertainty[J]. arXiv preprint arXiv:2401.15077, 2024.
-
-
