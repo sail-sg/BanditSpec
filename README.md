@@ -18,7 +18,7 @@ This repository implements **BanditSpec**, a speculative decoding framework that
 
 ```bash
 pip install torch transformers fairscale flash-attn tqdm
-````
+```
 
 > ⚠️ Make sure `flash-attn` is compiled for your CUDA and PyTorch version.
 
