@@ -20,6 +20,9 @@ This repository implements **BanditSpec**, a speculative decoding framework that
 pip install torch transformers fairscale flash-attn tqdm
 ```
 
+
+````
+
 > ⚠️ Make sure `flash-attn` is compiled for your CUDA and PyTorch version.
 
 > Download EAGLE models from their repo (https://github.com/SafeAILab/EAGLE)
